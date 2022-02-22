@@ -7,18 +7,18 @@ docker run \
 
 
 ###### typeorm pgsql install:-
-import { TypeOrmModule } from '@nestjs/typeorm';
-npm install --save @nestjs/typeorm typeorm pg
+- import { TypeOrmModule } from '@nestjs/typeorm';
+- npm install --save @nestjs/typeorm typeorm pg
 
 
 ###### .env config :-
-import { ConfigModule } from '@nestjs/config';
-npm i --save @nestjs/config
+- import { ConfigModule } from '@nestjs/config';
+- npm i --save @nestjs/config
 
 
 ###### .env file :-
-POSTGRES_HOST=localhost
-POSTGRES_DB=productdb
-POSTGRES_USER=postgres
-POSTGRES_PASSWORD=password
-POSTGRES_PORT=4444
+- POSTGRES_HOST=localhost
+- POSTGRES_DB=productdb
+- POSTGRES_USER=postgres
+- POSTGRES_PASSWORD=password
+- POSTGRES_PORT=4444
