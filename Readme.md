@@ -6,17 +6,17 @@ docker run \
  -d postgres:latest
 
 
-typeorm pgsql install:-
+######typeorm pgsql install:-
 import { TypeOrmModule } from '@nestjs/typeorm';
 npm install --save @nestjs/typeorm typeorm pg
 
 
-.env config :-
+######.env config :-
 import { ConfigModule } from '@nestjs/config';
 npm i --save @nestjs/config
 
 
-.env file :-
+######.env file :-
 POSTGRES_HOST=localhost
 POSTGRES_DB=productdb
 POSTGRES_USER=postgres
