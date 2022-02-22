@@ -5,7 +5,12 @@ docker run \
  -p 4444:5432 \
  -d postgres:latest
 
-
+###### nest cli :-
+- nest new <project-name>
+- nest generate mo <module-name> 
+- nest generate co <controller-name> 
+- nest generate service <service-name> 
+ 
 ###### typeorm pgsql install:-
 - import { TypeOrmModule } from '@nestjs/typeorm';
 - npm install --save @nestjs/typeorm typeorm pg
