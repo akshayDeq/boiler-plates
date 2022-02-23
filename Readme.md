@@ -30,3 +30,6 @@ POSTGRES_PORT=4444 \
 
 ###### install grpc on nest-app :-
 npm i --save @grpc/grpc-js @grpc/proto-loader
+
+###### install microservice on nest-app :-
+npm i --save @nestjs/microservices
