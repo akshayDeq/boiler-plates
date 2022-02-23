@@ -27,3 +27,6 @@ POSTGRES_DB=productdb \
 POSTGRES_USER=postgres \
 POSTGRES_PASSWORD=password \
 POSTGRES_PORT=4444 \
+
+###### install grpc on nest-app :-
+npm i --save @grpc/grpc-js @grpc/proto-loader
