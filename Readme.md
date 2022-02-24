@@ -33,3 +33,6 @@ npm i --save @grpc/grpc-js @grpc/proto-loader
 
 ###### install microservice on nest-app :-
 npm i --save @nestjs/microservices
+
+###### class-validator :-
+npm i --save class-validator class-transformer
